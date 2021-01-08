@@ -4,6 +4,6 @@
     End Sub
 
     Private Sub ButtonEnviar_Click(sender As Object, e As EventArgs) Handles ButtonEnviar.Click
-        MessageBox.Show("Hola" + TextBoxNombre.Text & " de " + TextBoxOrganizacion.Text)
+        MessageBox.Show("Hola " + TextBoxNombre.Text & " de " + TextBoxOrganizacion.Text)
     End Sub
 End Class
